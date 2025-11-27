@@ -1,0 +1,140 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Страница-1" id="lDYUM7yj8O4vF3An3p9D">
+    <mxGraphModel dx="2426" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="490" width="1260" x="50" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-4" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="190" width="670" x="50" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-5" parent="ta-gjCBSzvdMNX28ScMO-4" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="190" width="670" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-6" parent="ta-gjCBSzvdMNX28ScMO-4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="UserAPI" vertex="1">
+          <mxGeometry height="70" width="70" x="61" y="68.08333333333333" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-7" parent="ta-gjCBSzvdMNX28ScMO-4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="OrderAPI" vertex="1">
+          <mxGeometry height="79" width="79" x="172" y="63.333333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-8" parent="ta-gjCBSzvdMNX28ScMO-4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="RouteAPI" vertex="1">
+          <mxGeometry height="79" width="79" x="282" y="63.333333333333336" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-9" parent="ta-gjCBSzvdMNX28ScMO-4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="PaymentAPI" vertex="1">
+          <mxGeometry height="99" width="99" x="391" y="52.77777777777778" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-10" parent="ta-gjCBSzvdMNX28ScMO-4" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" value="NotifyAPI" vertex="1">
+          <mxGeometry height="81" width="81" x="522" y="62.27777777777778" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-11" parent="ta-gjCBSzvdMNX28ScMO-4" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="Какие API будут" vertex="1">
+          <mxGeometry height="42.22222222222222" width="100" x="271.5" y="10.56" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-12" connectable="0" parent="1" style="group" value="" vertex="1">
+          <mxGeometry height="366" width="1167" x="80" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-13" parent="ta-gjCBSzvdMNX28ScMO-12" style="whiteSpace=wrap;strokeWidth=2;" value="External Map Service" vertex="1">
+          <mxGeometry height="54" width="210" x="957" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-14" parent="ta-gjCBSzvdMNX28ScMO-12" style="whiteSpace=wrap;strokeWidth=2;" value="GPS Tracking System" vertex="1">
+          <mxGeometry height="54" width="207" x="959" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-15" parent="ta-gjCBSzvdMNX28ScMO-12" style="whiteSpace=wrap;strokeWidth=2;" value="Payment Gateway" vertex="1">
+          <mxGeometry height="54" width="189" x="968" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-16" parent="ta-gjCBSzvdMNX28ScMO-12" style="whiteSpace=wrap;strokeWidth=2;" value="SMS/Email Service" vertex="1">
+          <mxGeometry height="54" width="191" x="967" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-17" connectable="0" parent="ta-gjCBSzvdMNX28ScMO-12" style="group" value="" vertex="1">
+          <mxGeometry height="366" width="823" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-18" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="User Management" vertex="1">
+          <mxGeometry height="54" width="187" y="156" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-19" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="Order Management" vertex="1">
+          <mxGeometry height="54" width="196" x="310" y="154" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-20" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="Route Planning" vertex="1">
+          <mxGeometry height="54" width="167" x="656" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-21" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="Vehicle Tracking" vertex="1">
+          <mxGeometry height="54" width="176" x="647" y="104" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-22" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="Payment Processing" vertex="1">
+          <mxGeometry height="54" width="200" x="623" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-23" parent="ta-gjCBSzvdMNX28ScMO-17" style="whiteSpace=wrap;strokeWidth=2;" value="Notifications" vertex="1">
+          <mxGeometry height="54" width="151" x="672" y="312" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-24" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" style="curved=1;startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;entryDx=0;entryDy=0;" target="ta-gjCBSzvdMNX28ScMO-19" value="UserAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="190" y="177" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-25" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" source="ta-gjCBSzvdMNX28ScMO-19" style="curved=0;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;" target="ta-gjCBSzvdMNX28ScMO-20" value="OrderAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="457" y="27" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-26" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" source="ta-gjCBSzvdMNX28ScMO-19" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.34;entryX=0;entryY=0.5;rounded=0;" target="ta-gjCBSzvdMNX28ScMO-21" value="OrderAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="506" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-27" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" source="ta-gjCBSzvdMNX28ScMO-18" style="curved=0;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.75;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="ta-gjCBSzvdMNX28ScMO-23" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="353" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-28" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" source="ta-gjCBSzvdMNX28ScMO-19" style="curved=0;startArrow=none;endArrow=block;exitX=1;exitY=0.75;entryX=0;entryY=0.5;rounded=0;exitDx=0;exitDy=0;" target="ta-gjCBSzvdMNX28ScMO-22" value="PaymentAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="506" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-29" edge="1" parent="ta-gjCBSzvdMNX28ScMO-17" source="ta-gjCBSzvdMNX28ScMO-19" style="curved=0;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=0;entryY=0.25;rounded=0;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="ta-gjCBSzvdMNX28ScMO-23" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="326" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-30" parent="ta-gjCBSzvdMNX28ScMO-17" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="&lt;font style=&quot;font-size: 64px;&quot;&gt;Сама схема&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="330" x="30" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-31" edge="1" parent="ta-gjCBSzvdMNX28ScMO-12" source="ta-gjCBSzvdMNX28ScMO-20" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="ta-gjCBSzvdMNX28ScMO-13" value="RouteAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-32" edge="1" parent="ta-gjCBSzvdMNX28ScMO-12" source="ta-gjCBSzvdMNX28ScMO-21" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="ta-gjCBSzvdMNX28ScMO-14" value="TrackAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-33" edge="1" parent="ta-gjCBSzvdMNX28ScMO-12" source="ta-gjCBSzvdMNX28ScMO-22" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="ta-gjCBSzvdMNX28ScMO-15" value="PaymentAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-34" edge="1" parent="ta-gjCBSzvdMNX28ScMO-12" source="ta-gjCBSzvdMNX28ScMO-23" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="ta-gjCBSzvdMNX28ScMO-16" value="NotifyAPI">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ta-gjCBSzvdMNX28ScMO-35" parent="1" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" value="Title" vertex="1">
+          <mxGeometry height="40" width="100" x="540" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
