@@ -1,0 +1,141 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="Page-1" id="pNbujt2D9aMUh7JWs5f2">
+    <mxGraphModel dx="1213" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=33.142857142857146;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Book" vertex="1">
+          <mxGeometry height="239.14285714285714" width="177" x="500" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-2" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Title: string" vertex="1">
+          <mxGeometry height="33" width="177" y="33.142857142857146" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-3" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Author: string" vertex="1">
+          <mxGeometry height="33" width="177" y="66.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-4" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ISBN: string" vertex="1">
+          <mxGeometry height="33" width="177" y="99.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-5" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+IsAvailable: bool" vertex="1">
+          <mxGeometry height="33" width="177" y="132.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-6" parent="pmdagFPdGnEPdXVM1u6a-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="177" y="165.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-7" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+MarkAsLoaned()" vertex="1">
+          <mxGeometry height="33" width="177" y="173.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-8" parent="pmdagFPdGnEPdXVM1u6a-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+MarkAsAvailable()" vertex="1">
+          <mxGeometry height="33" width="177" y="206.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-9" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34.666666666666664;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Reader" vertex="1">
+          <mxGeometry height="217.66666666666666" width="235" x="160" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-10" parent="pmdagFPdGnEPdXVM1u6a-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Id: int" vertex="1">
+          <mxGeometry height="35" width="235" y="34.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-11" parent="pmdagFPdGnEPdXVM1u6a-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Name: string" vertex="1">
+          <mxGeometry height="35" width="235" y="69.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-12" parent="pmdagFPdGnEPdXVM1u6a-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Email: string" vertex="1">
+          <mxGeometry height="35" width="235" y="104.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-13" parent="pmdagFPdGnEPdXVM1u6a-9" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="235" y="139.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-14" parent="pmdagFPdGnEPdXVM1u6a-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+BorrowBook(book: Book)" vertex="1">
+          <mxGeometry height="35" width="235" y="147.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-15" parent="pmdagFPdGnEPdXVM1u6a-9" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ReturnBook(book: Book)" vertex="1">
+          <mxGeometry height="35" width="235" y="182.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34.666666666666664;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Library" vertex="1">
+          <mxGeometry height="217.66666666666666" width="247" x="465" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-17" parent="pmdagFPdGnEPdXVM1u6a-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Id: int" vertex="1">
+          <mxGeometry height="35" width="247" y="34.666666666666664" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-18" parent="pmdagFPdGnEPdXVM1u6a-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Name: string" vertex="1">
+          <mxGeometry height="35" width="247" y="69.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-19" parent="pmdagFPdGnEPdXVM1u6a-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Position: string" vertex="1">
+          <mxGeometry height="35" width="247" y="104.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-20" parent="pmdagFPdGnEPdXVM1u6a-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="247" y="139.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-21" parent="pmdagFPdGnEPdXVM1u6a-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+AddBook(book: Book)" vertex="1">
+          <mxGeometry height="35" width="247" y="147.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-22" parent="pmdagFPdGnEPdXVM1u6a-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+RemoveBook(book: Book)" vertex="1">
+          <mxGeometry height="35" width="247" y="182.66666666666666" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-23" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=33.142857142857146;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="Loan" vertex="1">
+          <mxGeometry height="239.14285714285714" width="175" x="190" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-24" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Book: Book" vertex="1">
+          <mxGeometry height="33" width="175" y="33.142857142857146" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-25" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Reader: Reader" vertex="1">
+          <mxGeometry height="33" width="175" y="66.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-26" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+LoanDate: Date" vertex="1">
+          <mxGeometry height="33" width="175" y="99.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-27" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+ReturnDate: Date" vertex="1">
+          <mxGeometry height="33" width="175" y="132.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-28" parent="pmdagFPdGnEPdXVM1u6a-23" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="175" y="165.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-29" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+IssueLoan()" vertex="1">
+          <mxGeometry height="33" width="175" y="173.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-30" parent="pmdagFPdGnEPdXVM1u6a-23" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+CompleteLoan()" vertex="1">
+          <mxGeometry height="33" width="175" y="206.14285714285714" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-31" edge="1" parent="1" source="pmdagFPdGnEPdXVM1u6a-9" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;entryDx=0;entryDy=0;" target="pmdagFPdGnEPdXVM1u6a-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-32" parent="pmdagFPdGnEPdXVM1u6a-31" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-33" parent="pmdagFPdGnEPdXVM1u6a-31" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-26" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-34" edge="1" parent="1" source="pmdagFPdGnEPdXVM1u6a-5" style="curved=0;startArrow=none;endArrow=open;endSize=12;exitX=0;exitY=0.5;entryX=1;entryY=0.09;rounded=0;exitDx=0;exitDy=0;" target="pmdagFPdGnEPdXVM1u6a-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-35" parent="pmdagFPdGnEPdXVM1u6a-34" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry">
+            <mxPoint x="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-36" parent="pmdagFPdGnEPdXVM1u6a-34" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-37" edge="1" parent="1" source="pmdagFPdGnEPdXVM1u6a-16" style="curved=1;startArrow=none;endArrow=open;endSize=12;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="pmdagFPdGnEPdXVM1u6a-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-38" parent="pmdagFPdGnEPdXVM1u6a-37" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=right;verticalAlign=top;" value="1" vertex="1">
+          <mxGeometry relative="1" x="-1" as="geometry" />
+        </mxCell>
+        <mxCell id="pmdagFPdGnEPdXVM1u6a-39" parent="pmdagFPdGnEPdXVM1u6a-37" style="edgeLabel;resizable=0;labelBackgroundColor=none;fontSize=12;align=left;verticalAlign=bottom;" value="0..*" vertex="1">
+          <mxGeometry relative="1" x="1" as="geometry">
+            <mxPoint x="-28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
